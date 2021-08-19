@@ -1,0 +1,23 @@
+base: 'https://live.ddev-slub-profile-service.ddev.site'
+baseVariants:
+  -
+    base: 'https://staging.ddev-slub-profile-service.ddev.site'
+    condition: 'applicationContext == "Production/Staging"'
+  -
+    base: 'https://ddev-slub-profile-service.ddev.site'
+    condition: 'applicationContext == "Development"'
+languages:
+  - title: Deutsch
+    enabled: true
+    languageId: '0'
+    base: /
+    typo3Language: de
+    locale: de_DE.UTF-8
+    iso-639-1: de
+    navigationTitle: Deutsch
+    hreflang: de-DE
+    direction: ltr
+    flag: de
+    websiteTitle: ''
+rootPageId: 1
+websiteTitle: ''

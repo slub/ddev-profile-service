@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+
+.ddev/*
+!.ddev/config.yaml
+!.ddev/docker-compose.environment.yaml
+
+/public/*
+!/public/typo3conf
+/public/typo3conf/*
+
+/var/*
+/vendor/*

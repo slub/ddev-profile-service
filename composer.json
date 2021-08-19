@@ -1,0 +1,47 @@
+{
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		}
+	],
+	"name": "typo3/cms-base-distribution",
+	"description" : "TYPO3 CMS Base Distribution",
+	"license": "GPL-2.0-or-later",
+	"config": {
+		"platform": {
+			"php": "7.4"
+		},
+		"sort-packages": true
+	},
+	"require": {
+		"helhum/typo3-console": "^6.6.0",
+		"typo3/cms-backend": "^11.3",
+		"typo3/cms-belog": "^11.3",
+		"typo3/cms-beuser": "^11.3",
+		"typo3/cms-core": "^11.3",
+		"typo3/cms-dashboard": "^11.3",
+		"typo3/cms-extbase": "^11.3",
+		"typo3/cms-extensionmanager": "^11.3",
+		"typo3/cms-filelist": "^11.3",
+		"typo3/cms-fluid": "^11.3",
+		"typo3/cms-fluid-styled-content": "^11.3",
+		"typo3/cms-frontend": "^11.3",
+		"typo3/cms-info": "^11.3",
+		"typo3/cms-install": "^11.3",
+		"typo3/cms-recordlist": "^11.3",
+		"typo3/cms-setup": "^11.3",
+		"typo3/cms-sys-note": "^11.3",
+		"typo3/cms-tstemplate": "^11.3",
+		"typo3/cms-viewpage": "^11.3"
+	},
+	"scripts":{
+		"typo3-cms-scripts": [
+			"typo3cms install:generatepackagestates",
+			"typo3cms install:fixfolderstructure"
+		],
+		"post-autoload-dump": [
+			"@typo3-cms-scripts"
+		]
+	}
+},
