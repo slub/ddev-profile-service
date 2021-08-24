@@ -10,7 +10,9 @@ This is the main project repository, contains the composer stack and in future t
 
 - `git clone git@github.com:slub/ddev-profile-service.git`
 - `cd slub-profile-service`
-- `composer install`
+- `ddev start`
+- `ddev composer install`
+- `ddev import-db -f database.sql.gz`
 - `Import DB`
 - `Import Assets`
 
