@@ -40,7 +40,19 @@
 		"typo3/cms-tstemplate": "^11.3",
 		"typo3/cms-viewpage": "^11.3"
 	},
-	"scripts":{
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^3.1",
+		"phpstan/extension-installer": "^1.1",
+		"phpstan/phpstan": "^0.12.96",
+		"saschaegerer/phpstan-typo3": "^0.13.3"
+	},
+	"scripts": {
+		"ci:php": [
+			"@ci:php:cs-fixer",
+			"@ci:php:stan"
+		],
+		"ci:php:cs-fixer": "php-cs-fixer fix --config .php_cs.php -v --dry-run --using-cache no --diff",
+		"ci:php:stan": "phpstan analyse",
 		"typo3-cms-scripts": [
 			"typo3cms install:generatepackagestates",
 			"typo3cms install:fixfolderstructure"
@@ -48,5 +60,10 @@
 		"post-autoload-dump": [
 			"@typo3-cms-scripts"
 		]
+	},
+	"scripts-descriptions": {
+		"ci:php": "Runs all static checks for the PHP files.",
+		"ci:php:cs-fixer": "Checks the code style with the PHP Coding Standards Fixer (PHP-CS-Fixer).",
+		"ci:php:stan": "Checks the PHP types using PHPStan."
 	}
 }

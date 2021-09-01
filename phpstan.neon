@@ -1,0 +1,10 @@
+parameters:
+	level: 3
+	bootstrapFiles:
+		- vendor/autoload.php
+	scanDirectories:
+		- public/typo3conf/ext/slub_profile_events
+	paths:
+		- public/typo3conf/ext/slub_profile_events
+	ignoreErrors:
+		- '#Call to an undefined method TYPO3\\CMS\\Extbase\\Mvc\\View\\ViewInterface::setVariablesToRender\(\)#'
