@@ -3,6 +3,10 @@
 		{
 			"type": "composer",
 			"url": "https://composer.typo3.org/"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:slub/slub-profile-events.git"
 		}
 	],
 	"name": "typo3/cms-base-distribution",
@@ -16,6 +20,7 @@
 	},
 	"require": {
 		"helhum/typo3-console": "^6.6.0",
+		"slub/slub-profile-events": "dev-develop",
 		"typo3/cms-backend": "^11.3",
 		"typo3/cms-belog": "^11.3",
 		"typo3/cms-beuser": "^11.3",
