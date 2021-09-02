@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+
+.ddev/*
+!.ddev/config.yaml
+!.ddev/docker-compose.environment.yaml
+
+/public/*
+!/public/.htaccess
+!/public/fileadmin/.gitkeep
+!/public/typo3conf
+/public/typo3conf/*
+!/public/typo3conf/LocalConfiguration.php
+!/public/typo3conf/AdditionalConfiguration.php
+
+/var/*
+/vendor/*
