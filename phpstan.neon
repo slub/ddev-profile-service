@@ -4,7 +4,9 @@ parameters:
 		- vendor/autoload.php
 	scanDirectories:
 		- public/typo3conf/ext/slub_profile_events
+		- public/typo3conf/ext/slub_web_profile
 	paths:
 		- public/typo3conf/ext/slub_profile_events
+		- public/typo3conf/ext/slub_web_profile
 	ignoreErrors:
 		- '#Call to an undefined method TYPO3\\CMS\\Extbase\\Mvc\\View\\ViewInterface::setVariablesToRender\(\)#'

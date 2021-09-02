@@ -35,7 +35,8 @@ if (PHP_SAPI !== 'cli') {
 // Exclude some directories that are excluded by Git anyways to speed up the sniffing
 $finder = (new PhpCsFixer\Finder())
     ->exclude('vendor')
-    ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_events');
+    ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_events')
+    ->in(__DIR__ . '/public/typo3conf/ext/slub_web_profile');
 // Return a Code Sniffing configuration using
 // all sniffers needed for PSR-2
 // and additionally:

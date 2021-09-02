@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "168c528b68c411fd1fcacbdd90586953",
+    "content-hash": "c4c59726265eda639e3786854ab52002",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2136,6 +2136,53 @@
                 "issues": "https://github.com/slub/slub-profile-events/issues"
             },
             "time": "2021-09-01T14:02:14+00:00"
+        },
+        {
+            "name": "slub/slub-web-profile",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slub/slub-web-profile.git",
+                "reference": "e07141a7abe6ea0005042da31df3ea432328d2ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slub/slub-web-profile/zipball/e07141a7abe6ea0005042da31df3ea432328d2ef",
+                "reference": "e07141a7abe6ea0005042da31df3ea432328d2ef",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^11"
+            },
+            "replace": {
+                "typo3-ter/slub-web-profile": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "slub_web_profile"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Slub\\SlubWebProfile\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Pfeiffer",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SLUB profile template extension",
+            "support": {
+                "source": "https://github.com/slub/slub-web-profile/tree/develop",
+                "issues": "https://github.com/slub/slub-web-profile/issues"
+            },
+            "time": "2021-09-02T07:50:03+00:00"
         },
         {
             "name": "symfony/cache",
@@ -7043,7 +7090,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "slub/slub-profile-events": 20
+        "slub/slub-profile-events": 20,
+        "slub/slub-web-profile": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
