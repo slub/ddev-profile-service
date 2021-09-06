@@ -9,4 +9,5 @@ parameters:
 		- public/typo3conf/ext/slub_profile_events
 		- public/typo3conf/ext/slub_web_profile
 	ignoreErrors:
+		- '#Call to an undefined method Psr\\Http\\Message\\RequestFactoryInterface::request\(\)#'
 		- '#Call to an undefined method TYPO3\\CMS\\Extbase\\Mvc\\View\\ViewInterface::setVariablesToRender\(\)#'
