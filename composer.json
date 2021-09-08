@@ -18,32 +18,31 @@
 	"license": "GPL-2.0-or-later",
 	"config": {
 		"platform": {
-			"php": "7.4"
+			"php": "7.4.1"
 		},
 		"sort-packages": true
 	},
 	"require": {
-		"helhum/typo3-console": "^6.6.0",
 		"slub/slub-profile-events": "dev-develop",
 		"slub/slub-web-profile": "dev-develop",
-		"typo3/cms-backend": "^11.3",
-		"typo3/cms-belog": "^11.3",
-		"typo3/cms-beuser": "^11.3",
-		"typo3/cms-core": "^11.3",
-		"typo3/cms-dashboard": "^11.3",
-		"typo3/cms-extbase": "^11.3",
-		"typo3/cms-extensionmanager": "^11.3",
-		"typo3/cms-filelist": "^11.3",
-		"typo3/cms-fluid": "^11.3",
-		"typo3/cms-fluid-styled-content": "^11.3",
-		"typo3/cms-frontend": "^11.3",
-		"typo3/cms-info": "^11.3",
-		"typo3/cms-install": "^11.3",
-		"typo3/cms-recordlist": "^11.3",
-		"typo3/cms-setup": "^11.3",
-		"typo3/cms-sys-note": "^11.3",
-		"typo3/cms-tstemplate": "^11.3",
-		"typo3/cms-viewpage": "^11.3"
+		"typo3/cms-backend": "^11.4",
+		"typo3/cms-belog": "^11.4",
+		"typo3/cms-beuser": "^11.4",
+		"typo3/cms-core": "^11.4",
+		"typo3/cms-dashboard": "^11.4",
+		"typo3/cms-extbase": "^11.4",
+		"typo3/cms-extensionmanager": "^11.4",
+		"typo3/cms-filelist": "^11.4",
+		"typo3/cms-fluid": "^11.4",
+		"typo3/cms-fluid-styled-content": "^11.4",
+		"typo3/cms-frontend": "^11.4",
+		"typo3/cms-info": "^11.4",
+		"typo3/cms-install": "^11.4",
+		"typo3/cms-recordlist": "^11.4",
+		"typo3/cms-setup": "^11.4",
+		"typo3/cms-sys-note": "^11.4",
+		"typo3/cms-tstemplate": "^11.4",
+		"typo3/cms-viewpage": "^11.4"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.1",
@@ -57,14 +56,7 @@
 			"@ci:php:stan"
 		],
 		"ci:php:cs-fixer": "php-cs-fixer fix --config .php_cs.php -v --dry-run --using-cache no --diff",
-		"ci:php:stan": "phpstan analyse",
-		"typo3-cms-scripts": [
-			"typo3cms install:generatepackagestates",
-			"typo3cms install:fixfolderstructure"
-		],
-		"post-autoload-dump": [
-			"@typo3-cms-scripts"
-		]
+		"ci:php:stan": "phpstan analyse"
 	},
 	"scripts-descriptions": {
 		"ci:php": "Runs all static checks for the PHP files.",
