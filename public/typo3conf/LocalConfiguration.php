@@ -38,9 +38,13 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'slub_profile_events' => [
+            'requestArgumentIdentifier' => 'tx_slubevents_apieventlist',
+            'requestUrl' => 'https://ddev-ddev-slub-katalog-web?type=1452982642',
+        ],
     ],
     'FE' => [
-        'debug' => true,
+        'debug' => false,
         'disableNoCacheParameter' => true,
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
