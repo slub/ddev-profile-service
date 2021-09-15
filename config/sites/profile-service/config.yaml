@@ -7,9 +7,10 @@ baseVariants:
     base: 'https://ddev-slub-profile-service.ddev.site'
     condition: 'applicationContext == "Development"'
 languages:
-  - title: Deutsch
+  -
+    title: Deutsch
     enabled: true
-    languageId: '0'
+    languageId: 0
     base: /
     typo3Language: de
     locale: de_DE.UTF-8
@@ -21,3 +22,5 @@ languages:
     websiteTitle: ''
 rootPageId: 1
 websiteTitle: ''
+imports:
+  - resource: 'EXT:slub_profile_events/Configuration/Routes/Default.yaml'
