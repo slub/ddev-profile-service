@@ -18,7 +18,7 @@
 	"license": "GPL-2.0-or-later",
 	"config": {
 		"platform": {
-			"php": "7.4.1"
+			"php": "7.4"
 		},
 		"sort-packages": true
 	},
