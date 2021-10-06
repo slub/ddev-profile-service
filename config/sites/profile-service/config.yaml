@@ -20,7 +20,23 @@ languages:
     direction: ltr
     flag: de
     websiteTitle: ''
+  -
+    title: English
+    enabled: true
+    base: /en/
+    typo3Language: default
+    locale: en_GB
+    iso-639-1: en
+    websiteTitle: English
+    navigationTitle: ''
+    hreflang: en-GB
+    direction: ltr
+    fallbackType: strict
+    fallbacks: ''
+    flag: en-us-gb
+    languageId: 1
 rootPageId: 1
 websiteTitle: ''
 imports:
-  - resource: 'EXT:slub_profile_events/Configuration/Routes/Default.yaml'
+  -
+    resource: 'EXT:slub_profile_events/Configuration/Routes/Default.yaml'
