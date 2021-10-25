@@ -36,7 +36,7 @@ if (PHP_SAPI !== 'cli') {
 $finder = (new PhpCsFixer\Finder())
     ->exclude('vendor')
     ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_events')
-    ->in(__DIR__ . '/public/typo3conf/ext/slub_web_profile');
+    ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_service');
 // Return a Code Sniffing configuration using
 // all sniffers needed for PSR-2
 // and additionally:

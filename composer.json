@@ -10,7 +10,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:slub/slub-web-profile.git"
+			"url": "git@github.com:slub/slub-profile-service.git"
 		}
 	],
 	"name": "typo3/cms-base-distribution",
@@ -24,7 +24,7 @@
 	},
 	"require": {
 		"slub/slub-profile-events": "dev-develop",
-		"slub/slub-web-profile": "dev-develop",
+		"slub/slub-profile-service": "dev-main",
 		"typo3/cms-backend": "^11.5",
 		"typo3/cms-belog": "^11.5",
 		"typo3/cms-beuser": "^11.5",
