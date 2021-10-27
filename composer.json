@@ -24,7 +24,7 @@
 	},
 	"require": {
 		"slub/slub-profile-events": "dev-develop",
-		"slub/slub-profile-service": "dev-main",
+		"slub/slub-profile-service": "dev-develop",
 		"typo3/cms-backend": "^11.5",
 		"typo3/cms-belog": "^11.5",
 		"typo3/cms-beuser": "^11.5",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b1d2c44e0e87b22acdaec9ff1a8a619",
+    "content-hash": "ee218dbbb8c1e6a2cc18b3c39f88af56",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2072,7 +2072,7 @@
         },
         {
             "name": "slub/slub-profile-service",
-            "version": "dev-main",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slub/slub-profile-service.git",
@@ -2090,7 +2090,6 @@
             "replace": {
                 "typo3-ter/slub-profile-service": "self.version"
             },
-            "default-branch": true,
             "type": "typo3-cms-extension",
             "extra": {
                 "typo3/cms": {
@@ -2113,7 +2112,7 @@
             ],
             "description": "SLUB profile template extension",
             "support": {
-                "source": "https://github.com/slub/slub-profile-service/tree/main",
+                "source": "https://github.com/slub/slub-profile-service/tree/develop",
                 "issues": "https://github.com/slub/slub-profile-service/issues"
             },
             "time": "2021-10-25T14:20:07+00:00"
