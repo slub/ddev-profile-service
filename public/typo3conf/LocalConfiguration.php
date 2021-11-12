@@ -39,6 +39,8 @@ return [
             'offlineMode' => '0',
         ],
         'slub_profile_events' => [
+            'authenticationUsername' => 'username',
+            'authenticationPassword' => 'password',
             'eventList' => [
                 'requestArgumentIdentifier' => 'tx_slubevents_apieventlist',
                 'requestUri' => 'https://ddev-slub-katalog.ddev.site?type=1452982642',
