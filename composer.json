@@ -6,6 +6,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:slub/slub-profile-account.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:slub/slub-profile-events.git"
 		},
 		{
@@ -23,6 +27,7 @@
 		"sort-packages": true
 	},
 	"require": {
+		"slub/slub-profile-account": "dev-develop",
 		"slub/slub-profile-events": "dev-develop",
 		"slub/slub-profile-service": "dev-develop",
 		"typo3/cms-backend": "^11.5",

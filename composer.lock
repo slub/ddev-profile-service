@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee218dbbb8c1e6a2cc18b3c39f88af56",
+    "content-hash": "13e1ca1eb87d30016dccbe340a7264ad",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2022,6 +2022,53 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "slub/slub-profile-account",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slub/slub-profile-account.git",
+                "reference": "7d57f46f20deeff9a4cf56d553ae26c5fc4c6625"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slub/slub-profile-account/zipball/7d57f46f20deeff9a4cf56d553ae26c5fc4c6625",
+                "reference": "7d57f46f20deeff9a4cf56d553ae26c5fc4c6625",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^11"
+            },
+            "replace": {
+                "typo3-ter/slub-profile-account": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "slub_profile_account"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Slub\\SlubProfileAccount\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Pfeiffer",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SLUB profile service account extension for TYPO3",
+            "support": {
+                "source": "https://github.com/slub/slub-profile-account/tree/develop",
+                "issues": "https://github.com/slub/slub-profile-account/issues"
+            },
+            "time": "2021-11-19T09:10:20+00:00"
         },
         {
             "name": "slub/slub-profile-events",
@@ -7018,6 +7065,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "slub/slub-profile-account": 20,
         "slub/slub-profile-events": 20,
         "slub/slub-profile-service": 20
     },
