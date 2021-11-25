@@ -39,4 +39,6 @@ rootPageId: 1
 websiteTitle: ''
 imports:
   -
+    resource: 'EXT:slub_profile_account/Configuration/Routes/Default.yaml'
+  -
     resource: 'EXT:slub_profile_events/Configuration/Routes/Default.yaml'
