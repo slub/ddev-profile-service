@@ -3,11 +3,13 @@ parameters:
 	bootstrapFiles:
 		- vendor/autoload.php
 	scanDirectories:
+		- public/typo3conf/ext/slub_profile_account
 		- public/typo3conf/ext/slub_profile_events
-		- public/typo3conf/ext/slub_web_profile
+		- public/typo3conf/ext/slub_profile_service
 	paths:
+		- public/typo3conf/ext/slub_profile_account
 		- public/typo3conf/ext/slub_profile_events
-		- public/typo3conf/ext/slub_web_profile
+		- public/typo3conf/ext/slub_profile_service
 	ignoreErrors:
 		- '#Call to an undefined method Psr\\Http\\Message\\RequestFactoryInterface::request\(\)#'
 		- '#Call to an undefined method TYPO3\\CMS\\Extbase\\Mvc\\View\\ViewInterface::setVariablesToRender\(\)#'

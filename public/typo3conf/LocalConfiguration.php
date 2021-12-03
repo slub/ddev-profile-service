@@ -39,13 +39,15 @@ return [
             'offlineMode' => '0',
         ],
         'slub_profile_events' => [
+            'authenticationUsername' => 'username',
+            'authenticationPassword' => 'password',
             'eventList' => [
                 'requestArgumentIdentifier' => 'tx_slubevents_apieventlist',
-                'requestUri' => 'https://ddev-ddev-slub-katalog-web?type=1452982642',
+                'requestUri' => 'https://ddev-slub-katalog.ddev.site?type=1452982642',
             ],
             'eventListUser' => [
                 'requestArgumentIdentifier' => 'tx_slubevents_apieventlistuser',
-                'requestUri' => 'https://ddev-ddev-slub-katalog-web?type=1452982643',
+                'requestUri' => 'https://ddev-slub-katalog.ddev.site?type=1452982643',
             ],
         ],
     ],
