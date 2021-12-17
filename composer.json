@@ -47,7 +47,8 @@
 		"typo3/cms-setup": "^11.5",
 		"typo3/cms-sys-note": "^11.5",
 		"typo3/cms-tstemplate": "^11.5",
-		"typo3/cms-viewpage": "^11.5"
+		"typo3/cms-viewpage": "^11.5",
+		"ext-json": "*"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.1",
