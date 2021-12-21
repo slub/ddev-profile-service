@@ -21,12 +21,11 @@
 	"description" : "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0-or-later",
 	"config": {
-		"platform": {
-			"php": "7.4"
-		},
 		"sort-packages": true
 	},
 	"require": {
+		"ext-json": "*",
+		"helhum/typo3-console": "^7.0",
 		"slub/slub-profile-account": "dev-develop",
 		"slub/slub-profile-events": "dev-develop",
 		"slub/slub-profile-service": "dev-develop",
@@ -47,8 +46,7 @@
 		"typo3/cms-setup": "^11.5",
 		"typo3/cms-sys-note": "^11.5",
 		"typo3/cms-tstemplate": "^11.5",
-		"typo3/cms-viewpage": "^11.5",
-		"ext-json": "*"
+		"typo3/cms-viewpage": "^11.5"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.1",
