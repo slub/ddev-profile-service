@@ -21,6 +21,9 @@
 	"description" : "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0-or-later",
 	"config": {
+		"platform": {
+			"php": "7.4.20"
+		},
 		"sort-packages": true
 	},
 	"require": {
@@ -60,7 +63,13 @@
 			"@ci:php:stan"
 		],
 		"ci:php:cs-fixer": "php-cs-fixer fix --config .php_cs.php -v --dry-run --using-cache no --diff",
-		"ci:php:stan": "phpstan analyse"
+		"ci:php:stan": "phpstan analyse",
+		"typo3-cms-scripts": [
+			"typo3cms install:fixfolderstructure"
+		],
+		"post-autoload-dump": [
+			"@typo3-cms-scripts"
+		]
 	},
 	"scripts-descriptions": {
 		"ci:php": "Runs all static checks for the PHP files.",
