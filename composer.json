@@ -32,6 +32,7 @@
 	},
 	"require": {
 		"ext-json": "*",
+		"ext-pdo": "*",
 		"helhum/typo3-console": "^7.0",
 		"slub/slub-profile-account": "dev-develop",
 		"slub/slub-profile-events": "dev-develop",
@@ -50,12 +51,13 @@
 		"typo3/cms-frontend": "^11.5",
 		"typo3/cms-info": "^11.5",
 		"typo3/cms-install": "^11.5",
+		"typo3/cms-lowlevel": "^11.5",
 		"typo3/cms-recordlist": "^11.5",
+		"typo3/cms-rte-ckeditor": "^11.5",
 		"typo3/cms-setup": "^11.5",
 		"typo3/cms-sys-note": "^11.5",
 		"typo3/cms-tstemplate": "^11.5",
-		"typo3/cms-viewpage": "^11.5",
-		"ext-pdo": "*"
+		"typo3/cms-viewpage": "^11.5"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.1",
