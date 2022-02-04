@@ -42,3 +42,5 @@ imports:
     resource: 'EXT:slub_profile_account/Configuration/Routes/Default.yaml'
   -
     resource: 'EXT:slub_profile_events/Configuration/Routes/Default.yaml'
+  -
+    resource: 'EXT:slub_profile_messages/Configuration/Routes/Default.yaml'
