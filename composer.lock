@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5157000e35735f4608a648a6bb01a110",
+    "content-hash": "301fca2683db2ad4a39bf618f42e8775",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -841,6 +841,54 @@
                 "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.14.1"
             },
             "time": "2021-08-09T23:46:54+00:00"
+        },
+        {
+            "name": "epx-anpf/slub-profile-bookmarks",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:epx-anpf/slub-profile-bookmarks.git",
+                "reference": "491b79ee11b1fa06116d9d7abf0c47b60f1884c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/epx-anpf/slub-profile-bookmarks/zipball/491b79ee11b1fa06116d9d7abf0c47b60f1884c8",
+                "reference": "491b79ee11b1fa06116d9d7abf0c47b60f1884c8",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^11"
+            },
+            "replace": {
+                "typo3-ter/slub-profile-bookmarks": "self.version"
+            },
+            "default-branch": true,
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "slub_profile_bookmarks"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Slub\\SlubProfileBookmarks\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Pfeiffer",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SLUB profile service bookmark extension for TYPO3",
+            "support": {
+                "source": "https://github.com/epx-anpf/slub-profile-bookmarks/tree/main",
+                "issues": "https://github.com/epx-anpf/slub-profile-bookmarks/issues"
+            },
+            "time": "2022-03-01T14:08:01+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2340,12 +2388,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slub/slub-profile-service.git",
-                "reference": "84d6968ebbc47bc975ec62ce472789944b9ffd4e"
+                "reference": "78516137ca304500fddeb0648b614b61e6792fa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slub/slub-profile-service/zipball/84d6968ebbc47bc975ec62ce472789944b9ffd4e",
-                "reference": "84d6968ebbc47bc975ec62ce472789944b9ffd4e",
+                "url": "https://api.github.com/repos/slub/slub-profile-service/zipball/78516137ca304500fddeb0648b614b61e6792fa6",
+                "reference": "78516137ca304500fddeb0648b614b61e6792fa6",
                 "shasum": ""
             },
             "require": {
@@ -2379,7 +2427,7 @@
                 "source": "https://github.com/slub/slub-profile-service/tree/develop",
                 "issues": "https://github.com/slub/slub-profile-service/issues"
             },
-            "time": "2022-01-28T13:41:20+00:00"
+            "time": "2022-03-01T14:20:25+00:00"
         },
         {
             "name": "symfony/cache",
@@ -7495,6 +7543,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "epx-anpf/slub-profile-bookmarks": 20,
         "slub/slub-profile-account": 20,
         "slub/slub-profile-events": 20,
         "slub/slub-profile-messages": 20,

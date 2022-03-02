@@ -4,11 +4,13 @@ parameters:
 		- vendor/autoload.php
 	scanDirectories:
 		- public/typo3conf/ext/slub_profile_account
+		- public/typo3conf/ext/slub_profile_bookmarks
 		- public/typo3conf/ext/slub_profile_events
 		- public/typo3conf/ext/slub_profile_messages
 		- public/typo3conf/ext/slub_profile_service
 	paths:
 		- public/typo3conf/ext/slub_profile_account
+		- public/typo3conf/ext/slub_profile_bookmarks
 		- public/typo3conf/ext/slub_profile_events
 		- public/typo3conf/ext/slub_profile_messages
 		- public/typo3conf/ext/slub_profile_service

@@ -7,3 +7,4 @@ services:
       - PHP_IDE_CONFIG=serverName=${DDEV_SITENAME}.ddev.site
     external_links:
       - 'ddev-router:ddev-slub-katalog.ddev.site'
+      - 'ddev-router:katalog.ddev.site'
