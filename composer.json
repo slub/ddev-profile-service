@@ -6,7 +6,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:epx-anpf/slub-profile-bookmarks.git"
+			"url": "git@github.com:slub/slub-profile-bookmarks.git"
 		},
 		{
 			"type": "vcs",
@@ -42,9 +42,9 @@
 	"require": {
 		"ext-json": "*",
 		"ext-pdo": "*",
-		"epx-anpf/slub-profile-bookmarks": "dev-main",
 		"helhum/typo3-console": "^7.0",
 		"slub/slub-profile-account": "dev-develop",
+		"slub/slub-profile-bookmarks": "dev-develop",
 		"slub/slub-profile-events": "dev-develop",
 		"slub/slub-profile-messages": "dev-develop",
 		"slub/slub-profile-service": "dev-develop",
