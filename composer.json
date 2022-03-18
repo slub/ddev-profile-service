@@ -6,11 +6,15 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:slub/slub-profile-bookmarks.git"
+			"url": "git@github.com:slub/slub-profile-account.git"
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:slub/slub-profile-account.git"
+			"url": "git@github.com:slub/slub-profile-booked.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:slub/slub-profile-bookmarks.git"
 		},
 		{
 			"type": "vcs",
@@ -44,6 +48,7 @@
 		"ext-pdo": "*",
 		"helhum/typo3-console": "^7.0",
 		"slub/slub-profile-account": "dev-develop",
+		"slub/slub-profile-booked": "dev-develop",
 		"slub/slub-profile-bookmarks": "dev-develop",
 		"slub/slub-profile-events": "dev-develop",
 		"slub/slub-profile-messages": "dev-develop",

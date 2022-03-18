@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0a23bac012d548a9e1f6e614291da2c",
+    "content-hash": "b942d09cafe5aa7d7013c0e2da115f3c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2239,6 +2239,53 @@
                 "issues": "https://github.com/slub/slub-profile-account/issues"
             },
             "time": "2022-03-02T10:55:51+00:00"
+        },
+        {
+            "name": "slub/slub-profile-booked",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slub/slub-profile-booked.git",
+                "reference": "e59baca3fd0c108169bd13a8b5a2e4395b660c3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slub/slub-profile-booked/zipball/e59baca3fd0c108169bd13a8b5a2e4395b660c3b",
+                "reference": "e59baca3fd0c108169bd13a8b5a2e4395b660c3b",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^11"
+            },
+            "replace": {
+                "typo3-ter/slub-profile-booked": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "slub_profile_booked"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Slub\\SlubProfileBooked\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Pfeiffer",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SLUB profile service booked rooms extension for TYPO3",
+            "support": {
+                "source": "https://github.com/slub/slub-profile-booked/tree/develop",
+                "issues": "https://github.com/slub/slub-profile-booked/issues"
+            },
+            "time": "2022-03-17T14:59:11+00:00"
         },
         {
             "name": "slub/slub-profile-bookmarks",
@@ -7543,6 +7590,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "slub/slub-profile-account": 20,
+        "slub/slub-profile-booked": 20,
         "slub/slub-profile-bookmarks": 20,
         "slub/slub-profile-events": 20,
         "slub/slub-profile-messages": 20,
