@@ -38,6 +38,11 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'slub_profile_booked' => [
+            'authenticationPassword' => '',
+            'authenticationUsername' => '',
+            'requestUri' => '',
+        ],
         'slub_profile_bookmarks' => [
             'bookmarkList' => [
                 'requestArgumentIdentifier' => 'tx_slubfindbookmarks_bookmarklist',

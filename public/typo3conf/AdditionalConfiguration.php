@@ -32,4 +32,8 @@ if (getenv('IS_DDEV_PROJECT') === 'true') {
             ],
         ]
     );
+
+    // This file contains extension "slub_profile_booked" configuration
+    // for the api. These are critical nonpublic data, so do not commit them.
+    require_once('AdditionalConfigurationPrivate.php');
 }
