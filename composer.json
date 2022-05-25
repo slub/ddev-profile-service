@@ -46,7 +46,7 @@
 	"require": {
 		"ext-json": "*",
 		"ext-pdo": "*",
-		"helhum/typo3-console": "^7.0",
+		"helhum/typo3-console": "^7.1",
 		"slub/slub-profile-account": "dev-develop",
 		"slub/slub-profile-booked": "dev-develop",
 		"slub/slub-profile-bookmarks": "dev-develop",
@@ -75,10 +75,10 @@
 		"typo3/cms-viewpage": "^11.5"
 	},
 	"require-dev": {
-		"friendsofphp/php-cs-fixer": "^3.1",
+		"friendsofphp/php-cs-fixer": "^3.8",
 		"phpstan/extension-installer": "^1.1",
-		"phpstan/phpstan": "^0.12.96",
-		"saschaegerer/phpstan-typo3": "^0.13.3"
+		"phpstan/phpstan": "^1.7",
+		"saschaegerer/phpstan-typo3": "^1.1"
 	},
 	"scripts": {
 		"ci:php": [
