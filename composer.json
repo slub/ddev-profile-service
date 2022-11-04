@@ -75,9 +75,9 @@
 		"typo3/cms-viewpage": "^11.5"
 	},
 	"require-dev": {
-		"friendsofphp/php-cs-fixer": "^3.8",
+		"friendsofphp/php-cs-fixer": "^3.13",
 		"phpstan/extension-installer": "^1.1",
-		"phpstan/phpstan": "^1.7",
+		"phpstan/phpstan": "^1.9",
 		"saschaegerer/phpstan-typo3": "^1.1"
 	},
 	"scripts": {
