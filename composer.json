@@ -76,9 +76,9 @@
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.13",
-		"phpstan/extension-installer": "^1.1",
+		"phpstan/extension-installer": "^1.2",
 		"phpstan/phpstan": "^1.9",
-		"saschaegerer/phpstan-typo3": "^1.1"
+		"saschaegerer/phpstan-typo3": "^1.8"
 	},
 	"scripts": {
 		"ci:php": [
