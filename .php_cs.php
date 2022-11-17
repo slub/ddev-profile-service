@@ -36,7 +36,10 @@ if (PHP_SAPI !== 'cli') {
 $finder = (new PhpCsFixer\Finder())
     ->exclude('vendor')
     ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_account')
+    ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_booked')
+    ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_bookmarks')
     ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_events')
+    ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_messages')
     ->in(__DIR__ . '/public/typo3conf/ext/slub_profile_service');
 // Return a Code Sniffing configuration using
 // all sniffers needed for PSR-2
@@ -77,7 +80,7 @@ return (new \PhpCsFixer\Config())
         'no_short_bool_cast' => true,
         'no_singleline_whitespace_before_semicolons' => true,
         'no_superfluous_elseif' => true,
-        'no_trailing_comma_in_singleline_array' => true,
+        'no_trailing_comma_in_singleline' => true,
         'no_unneeded_control_parentheses' => true,
         'no_unused_imports' => true,
         'no_useless_else' => true,

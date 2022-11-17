@@ -22,6 +22,8 @@ This is the main project repository, contains the composer stack and in future t
 
 Use the local development environment you like, but a DDEV solution is strongly recommended.
 
+**IMPORTANT!** The extension "slub_profile_booked" requires authentication data. We just have data for public systems. This data must NOT be in versioning but database, local-configuration and additional-configuration is in versioning. That´s why in DDEV context you have to add an AdditionalConfigurationPrivate.php with the authentication data for this extension / api.
+
 ### Handling
 
 You have a main repository "ddev-profile-service" and some child repositories, changes are made
