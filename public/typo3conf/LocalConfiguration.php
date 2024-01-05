@@ -46,7 +46,7 @@ return [
         'slub_profile_bookmarks' => [
             'bookmarkList' => [
                 'requestArgumentIdentifier' => 'tx_slubfindbookmarks_bookmarklist',
-                'requestUri' => 'https://katalog.ddev.site/merkliste/api/?type=1469315139&tx_slubfindbookmarks_bookmarklist[controller]=BookmarkList&tx_slubfindbookmarks_bookmarklist[action]=show',
+                'requestUri' => 'https://katalog.ddev.site/merkliste/api/?type=1469315139&tx_slubfindbookmarks_bookmarklist[controller]=BookmarkList&tx_slubfindbookmarks_bookmarklist[action]=getBookmarks',
             ],
         ],
         'slub_profile_events' => [
