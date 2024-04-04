@@ -2449,12 +2449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slub/slub-profile-events.git",
-                "reference": "52a7c590d7f36425add4de696692f71442b98b4e"
+                "reference": "721cec4198b77474f838fa492f9d59589bc7ed58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slub/slub-profile-events/zipball/52a7c590d7f36425add4de696692f71442b98b4e",
-                "reference": "52a7c590d7f36425add4de696692f71442b98b4e",
+                "url": "https://api.github.com/repos/slub/slub-profile-events/zipball/721cec4198b77474f838fa492f9d59589bc7ed58",
+                "reference": "721cec4198b77474f838fa492f9d59589bc7ed58",
                 "shasum": ""
             },
             "require": {
@@ -2488,7 +2488,7 @@
                 "source": "https://github.com/slub/slub-profile-events/tree/develop",
                 "issues": "https://github.com/slub/slub-profile-events/issues"
             },
-            "time": "2022-03-30T13:52:47+00:00"
+            "time": "2024-04-04T13:36:04+00:00"
         },
         {
             "name": "slub/slub-profile-messages",
