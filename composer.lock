@@ -2308,12 +2308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slub/slub-profile-account.git",
-                "reference": "c0ee672432dff194f5995a0b0ae53aa5e8a7e18c"
+                "reference": "5a94bb625f22d54b54b1af60040bee7bc6285db5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slub/slub-profile-account/zipball/c0ee672432dff194f5995a0b0ae53aa5e8a7e18c",
-                "reference": "c0ee672432dff194f5995a0b0ae53aa5e8a7e18c",
+                "url": "https://api.github.com/repos/slub/slub-profile-account/zipball/5a94bb625f22d54b54b1af60040bee7bc6285db5",
+                "reference": "5a94bb625f22d54b54b1af60040bee7bc6285db5",
                 "shasum": ""
             },
             "require": {
@@ -2347,7 +2347,7 @@
                 "source": "https://github.com/slub/slub-profile-account/tree/develop",
                 "issues": "https://github.com/slub/slub-profile-account/issues"
             },
-            "time": "2024-01-05T12:50:25+00:00"
+            "time": "2024-04-08T11:52:36+00:00"
         },
         {
             "name": "slub/slub-profile-booked",
