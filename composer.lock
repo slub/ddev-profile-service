@@ -2402,12 +2402,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slub/slub-profile-bookmarks.git",
-                "reference": "aca18ee29e81b922c20f28b306b73e33ade6b11c"
+                "reference": "7e070756c10fe9af817917d8e8e0259555e18c26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slub/slub-profile-bookmarks/zipball/aca18ee29e81b922c20f28b306b73e33ade6b11c",
-                "reference": "aca18ee29e81b922c20f28b306b73e33ade6b11c",
+                "url": "https://api.github.com/repos/slub/slub-profile-bookmarks/zipball/7e070756c10fe9af817917d8e8e0259555e18c26",
+                "reference": "7e070756c10fe9af817917d8e8e0259555e18c26",
                 "shasum": ""
             },
             "require": {
@@ -2441,7 +2441,7 @@
                 "source": "https://github.com/slub/slub-profile-bookmarks/tree/develop",
                 "issues": "https://github.com/slub/slub-profile-bookmarks/issues"
             },
-            "time": "2022-03-30T13:52:47+00:00"
+            "time": "2024-04-23T13:35:37+00:00"
         },
         {
             "name": "slub/slub-profile-events",
@@ -7773,5 +7773,5 @@
     "platform-overrides": {
         "php": "7.4.29"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
