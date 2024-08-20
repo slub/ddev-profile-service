@@ -40,3 +40,8 @@ inside the child repositories:
 # License
 
 GPL-2.0 or later
+
+# Maintainer
+
+typo3@slub-dresden.de
+
