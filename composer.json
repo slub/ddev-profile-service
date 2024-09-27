@@ -10,7 +10,19 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:slub/slub-profile-booked.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:slub/slub-profile-bookmarks.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:slub/slub-profile-events.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:slub/slub-profile-messages.git"
 		},
 		{
 			"type": "vcs",
@@ -22,13 +34,24 @@
 	"license": "GPL-2.0-or-later",
 	"config": {
 		"platform": {
-			"php": "7.4"
+			"php": "7.4.29"
 		},
-		"sort-packages": true
+		"sort-packages": true,
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true,
+			"phpstan/extension-installer": true
+		}
 	},
 	"require": {
+		"ext-json": "*",
+		"ext-pdo": "*",
+		"helhum/typo3-console": "^7.1",
 		"slub/slub-profile-account": "dev-develop",
+		"slub/slub-profile-booked": "dev-develop",
+		"slub/slub-profile-bookmarks": "dev-develop",
 		"slub/slub-profile-events": "dev-develop",
+		"slub/slub-profile-messages": "dev-develop",
 		"slub/slub-profile-service": "dev-develop",
 		"typo3/cms-backend": "^11.5",
 		"typo3/cms-belog": "^11.5",
@@ -43,17 +66,19 @@
 		"typo3/cms-frontend": "^11.5",
 		"typo3/cms-info": "^11.5",
 		"typo3/cms-install": "^11.5",
+		"typo3/cms-lowlevel": "^11.5",
 		"typo3/cms-recordlist": "^11.5",
+		"typo3/cms-rte-ckeditor": "^11.5",
 		"typo3/cms-setup": "^11.5",
 		"typo3/cms-sys-note": "^11.5",
 		"typo3/cms-tstemplate": "^11.5",
 		"typo3/cms-viewpage": "^11.5"
 	},
 	"require-dev": {
-		"friendsofphp/php-cs-fixer": "^3.1",
-		"phpstan/extension-installer": "^1.1",
-		"phpstan/phpstan": "^0.12.96",
-		"saschaegerer/phpstan-typo3": "^0.13.3"
+		"friendsofphp/php-cs-fixer": "^3.14",
+		"phpstan/extension-installer": "^1.2",
+		"phpstan/phpstan": "^1.9",
+		"saschaegerer/phpstan-typo3": "^1.8"
 	},
 	"scripts": {
 		"ci:php": [
@@ -61,7 +86,13 @@
 			"@ci:php:stan"
 		],
 		"ci:php:cs-fixer": "php-cs-fixer fix --config .php_cs.php -v --dry-run --using-cache no --diff",
-		"ci:php:stan": "phpstan analyse"
+		"ci:php:stan": "phpstan analyse",
+		"typo3-cms-scripts": [
+			"typo3cms install:fixfolderstructure"
+		],
+		"post-autoload-dump": [
+			"@typo3-cms-scripts"
+		]
 	},
 	"scripts-descriptions": {
 		"ci:php": "Runs all static checks for the PHP files.",

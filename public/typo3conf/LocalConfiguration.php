@@ -38,9 +38,21 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'slub_profile_booked' => [
+            'authenticationPassword' => 'eX5dtiWKNbJax9pV',
+            'authenticationUsername' => 'api4slub',
+            'requestUri' => 'https://api.raumbuchung.slub-dresden.de/Web/Services/',
+        ],
+        'slub_profile_bookmarks' => [
+            'bookmarkList' => [
+                'apiKey' => 'j7#5d-53reH-nk5%C-NKm83-K5f&ED',
+                'requestArgumentIdentifier' => 'tx_slubfindbookmarks_bookmarklist',
+                'requestUri' => 'https://katalog.ddev.site/merkliste/api/?type=1469315139&tx_slubfindbookmarks_bookmarklist[controller]=BookmarkList&tx_slubfindbookmarks_bookmarklist[action]=getBookmarks',
+            ],
+        ],
         'slub_profile_events' => [
-            'authenticationUsername' => 'username',
             'authenticationPassword' => 'password',
+            'authenticationUsername' => 'username',
             'eventList' => [
                 'requestArgumentIdentifier' => 'tx_slubevents_apieventlist',
                 'requestUri' => 'https://ddev-slub-katalog.ddev.site?type=1452982642',
